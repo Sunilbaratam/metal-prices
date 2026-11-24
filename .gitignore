@@ -1,0 +1,15 @@
+.env
+__pycache__/
+.venv/
+node_modules/
+dist/
+
+# Only the shared database is committed; any other local copies are not.
+*.db
+!data/prices.db
+*.db.bak
+
+# Generated or one-off files
+frontend/public/data/
+backend/history_cache/
+backend/history.csv
